@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Graphik';
+	src: url('fonts/Graphik-Regular.eot');
+	src: url('fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-Regular.woff') format('woff'),
+		url('fonts/Graphik-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('fonts/Graphik-RegularItalic.eot');
+	src: url('fonts/Graphik-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-RegularItalic.woff') format('woff'),
+		url('fonts/Graphik-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('fonts/Graphik-Medium.eot');
+	src: url('fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-Medium.woff') format('woff'),
+		url('fonts/Graphik-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('fonts/Graphik-Semibold.eot');
+	src: url('fonts/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-Semibold.woff') format('woff'),
+		url('fonts/Graphik-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+//  Graphik Condensed
+//  -----------------
+@font-face {
+	font-family: 'GraphikCondensed';
+	src: url('fonts/GraphikCondensed-Light-Web.eot');
+	src: url('fonts/GraphikCondensed-Light-Web.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GraphikCondensed-Light-Web.woff') format('woff'),
+		url('fonts/GraphikCondensed-Light-Web.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GraphikCondensed';
+	src: url('fonts/GraphikCondensed-Medium-Web.eot');
+	src: url('fonts/GraphikCondensed-Medium-Web.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GraphikCondensed-Medium-Web.woff') format('woff'),
+		url('fonts/GraphikCondensed-Medium-Web.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GraphikCondensed';
+	src: url('fonts/GraphikCondensed-Semibold-Web.eot');
+	src: url('fonts/GraphikCondensed-Semibold-Web.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GraphikCondensed-Semibold-Web.woff') format('woff'),
+		url('fonts/GraphikCondensed-Semibold-Web.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Graphik';
+	color: #45567c;
+	font-size: 18px;
+}
+
+.navbar {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'GraphikCondensed';
+	color: #0096ff;
+}
+
+a, a:hover {
+	color: #0096ff;
+    text-decoration: none;
+}
